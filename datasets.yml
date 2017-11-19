@@ -1,0 +1,46 @@
+# Datasets of observations used for model comparison
+
+---
+name: WOA2013
+description: temperature and salinity
+path: /g/data1/v45/akm157/data/WOA13v2
+url: https://www.nodc.noaa.gov/OC5/woa13/
+
+---
+description: temperature and current in the Pacific Ocean
+date_downloaded: 2017-11-14
+filename: meanfit_m.cdf
+url: https://floats.pmel.noaa.gov/gregory-c-johnson-home-page
+cite: "Equatorial Pacific Mean CTD/ADCP Sections in NetCDF from Johnson et al. (2002)."
+
+---
+description: Global current
+filename: drifter_annualmeans.nc
+date_downloaded: 2017-11-14
+url: http://www.aoml.noaa.gov/phod/dac/dac_meanvel.php
+title: "A drifter-derived monthly climatology of global near-surface currents"
+resolution: 1440x632 
+note: "dimension order: longitude, latitude, Longitude from -179.875-179.875"
+reference:  "Laurindo, L., A. Mariano, and R. Lumpkin, 2017: An improved near-surface velocity climatology for the global ocean from drifter observations Deep-Sea Res. I, 124, pp.73-92, doi:10.1016/j.dsr.2017.04.009 ."
+more_data: (monthly mean) can be downloaded from ftp://ftp.aoml.noaa.gov/phod/pub/lumpkin/drifter_climatology. 
+
+---
+name: MLD
+filename:  mld_DR003_c1m_reg2.0.nc  
+date_downloaded: 2017-10-24
+url: http://www.ifremer.fr/cerweb/deboyer/mld/Surface_Mixed_Layer_Depth.php
+
+---
+filename: ml_MLD_CLIM_ann.nc
+description: processing the annual mean data
+date_downloaded: 2017-11-03
+url: ftp://ftp2.jamstec.go.jp/pub/argo/MILA_GPV/monthly/mld/2x2/
+more_data: more data can be downloaded (month and 10days).
+more_information: http://www.jamstec.go.jp/ARGO/argo_web/ancient/MILAGPV/index_e.html
+
+---
+name: SSH
+filename: zos_AVISO_L4_199210-201012.nc 
+date_downloaded: 2017-10-24
+url: ftp://podaac-ftp.jpl.nasa.gov/allData/aviso/L4/dynamic_topo_1deg_1mo
+more_information: https://podaac.jpl.nasa.gov/dataset/AVISO_L4_DYN_TOPO_1DEG_1MO 
